@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mens.html">Men's Clothing</a></li>
+            <li><a href="womens.html">Women's Clothing</a></li>
+             <li><a href="cart.html">Cart</a></li>
+        </ul>
+        <span id="username-display"></span>
+        <div class="header-right">
+            <form class="search-form">
+                <input type="search" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+            <button class="login-button"><a href="login.html">Login</a></button>
+        </div>
+    </nav>
+</header>
+
+<div class="cart-container">
+    <h2>Your Cart</h2>
+    <div class="cart-items">
+        <!-- cart items will be generated here -->
+    </div>
+    <div class="cart-summary">
+        <p>Subtotal: <span id="subtotal"></span></p>
+        <p>Tax: <span id="tax"></span></p>
+        <p>Total: <span id="total"></span></p>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+</div>
+</body>
+</html>
